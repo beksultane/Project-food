@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+
+  &__title {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+  }
+}

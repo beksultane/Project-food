@@ -1,3 +1,26 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: sans-serif;
+  background: #211F20;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+}
+.nav__title {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 0.1875rem;
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=style.css.map */
