@@ -15,12 +15,69 @@ body {
 
 .nav {
   display: flex;
+  justify-content: space-between;
 }
 .nav__title {
   color: #fff;
   font-size: 25px;
-  letter-spacing: 0.1875rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
+}
+.nav__search_box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #504B4A;
+  border-radius: 10px;
+  padding-right: 20px;
+}
+.nav__contact {
+  display: flex;
+  align-items: center;
+  margin-right: 15%;
+}
+.nav__contact_icon {
+  padding: 10px;
+  border-radius: 50%;
+  background: #618967;
+}
+.nav__contact_number {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+.nav__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #618967;
+  border-radius: 9px;
+}
+.nav__button_link {
+  text-decoration: none;
+  color: #fff;
+}
+.nav__button_line {
+  border-left: 1px solid #CFCFCF;
+}
+.nav__button_num {
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  margin: 0 10.625rem 0 20px;
+}
+
+.box__img {
+  max-width: 24px;
+  height: 24px;
+}
+
+.box__text {
+  color: #CFCFCF;
+  font-size: 18px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
